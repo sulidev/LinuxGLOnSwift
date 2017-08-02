@@ -1,9 +1,9 @@
 import PackageDescription
 
 let package = Package(
-	name: "main",
+	name: "LinuxGLOnSwift",
 	dependencies: [
-		.Package(url: "https://github.com/BradLarson/COpenGL.git", majorVersion: 1),
+	  .Package(url: "https://github.com/sulidev/COpenGL.git", "1.0.1"),
 		.Package(url: "https://github.com/SwiftGL/CGLFWLinux.git", majorVersion: 1)
 	]
 )
